@@ -4,7 +4,7 @@ on:
 
 jobs:
   build:
-    runs-on: macOS-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout repo
         uses: actions/checkout@master
@@ -14,7 +14,7 @@ jobs:
 
       - name: Install pandoc
         run: |
-          brew install pandoc
+          apt install pandoc
       - name: Cache Renv packages
         uses: actions/cache@v1
         with:
@@ -29,6 +29,13 @@ jobs:
           key: bookdown-${{ hashFiles('**/*Rmd') }}
           restore-keys: bookdown-
 
+      - name: Install npm
+        uses: actions/setup-node@v3
+          with:
+            node-version: 16
+        run: |
+          npm install netlify-cli -g
+
       - name: Install packages
         run: |
           R -e 'install.packages("bookdown", dependencies = TRUE)'
@@ -37,14 +44,10 @@ jobs:
       - name: Build site
         run: Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
 
-      - name: Install npm
-        uses: actions/setup-node@v1
-
       - name: Deploy to Netlify
         # NETLIFY_AUTH_TOKEN added in the repo's secrets
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: |
-          npm install netlify-cli -g
           netlify deploy --prod --dir _book
