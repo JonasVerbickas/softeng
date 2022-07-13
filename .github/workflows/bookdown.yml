@@ -31,8 +31,8 @@ jobs:
 
       - name: Install npm
         uses: actions/setup-node@v3
-          with:
-            node-version: 16
+        with:
+          node-version: 16
         run: |
           npm install netlify-cli -g
 
