@@ -1,6 +1,6 @@
 # (PART) Weekly Workshops {-}
 
-#  It's working RIGHT?? {#building}
+#  Check if cache is working {#building}
 
 ## Introduction {#Introduction}
 
