@@ -15,6 +15,7 @@ jobs:
       - name: Install pandoc
         run: |
           sudo apt install pandoc
+          sudo apt install pandoc-citeproc
 
       - name: Cache bookdown results
         uses: actions/cache@v1
