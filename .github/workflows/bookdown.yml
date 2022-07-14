@@ -35,7 +35,7 @@ jobs:
         run: |
           R -e 'install.packages("bookdown", dependencies = TRUE)'
       - name: Build site
-        run: Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
+        run: Rscript -e 'bookdown::render_book("index.Rmd")'
 
       - name: Deploy to Netlify
         # NETLIFY_AUTH_TOKEN added in the repo's secrets
