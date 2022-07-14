@@ -24,6 +24,12 @@ jobs:
           key: bookdown-${{ hashFiles('**/*Rmd') }}
           restore-keys: bookdown-
 
+      - name: Install packages
+        run: |
+          R -e 'install.packages("bookdown", dependencies = TRUE)'
+      - name: Build site
+        run: Rscript -e 'bookdown::render_book("index.Rmd")'
+
       - name: Install npm
         uses: actions/setup-node@v3
         with:
@@ -31,12 +37,6 @@ jobs:
       - name: Install netlify-cli
         run: |
           npm install netlify-cli -g
-
-      - name: Install packages
-        run: |
-          R -e 'install.packages("bookdown", dependencies = TRUE)'
-      - name: Build site
-        run: Rscript -e 'bookdown::render_book("index.Rmd")'
 
       - name: Deploy to Netlify
         # NETLIFY_AUTH_TOKEN added in the repo's secrets
