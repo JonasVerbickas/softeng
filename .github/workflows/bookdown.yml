@@ -18,11 +18,11 @@ jobs:
           sudo apt install pandoc-citeproc
 
       - name: Cache Renv packages
-          uses: actions/cache@v1
-          with:
-            path: $HOME/.local/share/renv
-            key: r-${{ hashFiles('renv.lock') }}
-            restore-keys: r-
+        uses: actions/cache@v1
+        with:
+          path: $HOME/.local/share/renv
+          key: r-${{ hashFiles('renv.lock') }}
+          restore-keys: r-
 
       - name: Cache bookdown results
         uses: actions/cache@v1
