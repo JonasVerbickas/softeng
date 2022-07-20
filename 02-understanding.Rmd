@@ -1,4 +1,4 @@
-# Large systems {#understanding}
+# CHECK FOR CATCHING {#understanding}
 
 During your summer internship, year-long placement or after you leave University, chances are you will work on LARGE software systems. So it is crucial to be able to understand large software systems. You need to develop strategies for working with unfamiliar and large codebases. The codebase you're working on here is probably much larger than things you've worked with previously, though its relatively small compared to larger well known software projects, see figure \@ref(fig:xkcd-large-fig).
 
