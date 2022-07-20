@@ -35,6 +35,8 @@ jobs:
         run: |
           R -e 'install.packages("renv")'
           R -e 'renv::restore()'
+          R -e 'renv::install("downlit")'
+          R -e 'renv::install("xml2")' 
 
       - name: Build site
         run: Rscript -e 'bookdown::render_book("index.Rmd")'
