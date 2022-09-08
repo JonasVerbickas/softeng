@@ -1,0 +1,72 @@
+# Your mentor {#ourmentor}
+
+Your mentor is a professional software engineer from one of the employers listed here: (ref:mentors)
+
+Your mentor will meet your team twice on Zoom during the mentoring sessions on Thursdays. They can help you understand how what you're learning on this course relates to software engineering in the real world. They can guide you on the *process* and the *politics* of your software engineering project.
+
+Mentors have volunteered their time to help you, so make sure you ask them lots of questions, some suggested questions are shown in section \@ref(studentqs) if you need some inspiration.
+
+It makes your mentors job a lot easier if you turn your camera on, see section \@ref(cameras)
+
+## Introducing your team {#hellomentor}
+
+Both you and your mentor will get more out of your meeting if you introduce yourselves as a team beforehand. This requires that one of you collates team information and emails the mentor *before* the meeting. We suggest the following as an example and template:
+
+
+```md
+from: flo.ting-point@student.manchester.ac.uk
+to: $mentors-email
+cc: neil; pen; peter; marge; polly; etc
+subject:  Hello from Team X at the University of Manchester
+
+
+Dear $mentors-name (or $mentors-names)
+
+We'd like to introduce ourselves before our team meeting.
+
+We are team $team-number
+
+Our team members (modify as needed) include:
+
+* neil.pointer@student.manchester.ac.uk
+* pen.tester@student.manchester.ac.uk
+* peter.byte@student.manchester
+* marge.conlict@student.manchester.ac.uk
+* rick.urshion@student.manchester.ac.uk
+* polly.morphism@student.manchester.ac.uk
+* etc
+
+We look forward to meeting you on $date at $time on Zoom.
+
+Best wishes
+
+Florence Ting-Point
+(On behalf of team X)
+University of Manchester
+```
+
+You could (optionally) add more information about yourselves to help your mentor get to know you:
+
+```md
+
+Our team members (modify as needed) include:
+
+* neil.pointer@student.manchester.ac.uk likes C
+* pen.tester@student.manchester.ac.uk likes cybersecurity
+* peter.byte@student.manchester likes big data
+* marge.conlict@student.manchester.ac.uk likes version control
+* rick.urshion@student.manchester.ac.uk likes functional programming
+* polly.morphism@student.manchester.ac.uk likes O.O.P.
+* etc
+```
+
+
+## But I'm not interested in employer x? {#dontcare}
+
+If you are lucky, your mentor from employer $x$ will just happen to be working in a role or a sector that you are interested in.
+
+If they're not, you can still learn lots from them. Software engineering is converging on standard practices which means you can learn a huge amount from our mentors, even if you're not especially interested in the employer they work for.
+
+The way that high quality software is built in different industries is remarkably similar, from banks to technology companies and from e-commerce companies to consumer electronics.
+
+`Document version:` `r format(Sys.time(), '%d %B, %Y')`

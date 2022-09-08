@@ -1,0 +1,147 @@
+# Expectations {.unnumbered #expectations}
+
+While you are studying on this software engineering course, you are part of a team and a wider community:
+
+* Your immediate team members
+* The community of all second year students
+
+Your learning community is supported by a group of graduate teaching assistants (GTAs), mentors and academic staff.
+
+## Expectation engineering {#agile}
+It's important that you know what we expect of you and what you'll get in return. That's what this page describes.
+
+```{r xkcd-compiling-fig, echo = FALSE, fig.align = "center", out.width = "75%", fig.cap = "(ref:captionxkcdcompiling)"}
+knitr::include_graphics("images/compiling.png")
+```
+
+(ref:captionxkcdcompiling) There are legitimate reasons for slacking off, such as compiling (and building) your code. Falling out with your team members, not returning their messages or just being busy doing other things are not legitimate reasons for letting your team down. [Compiling (xkcd.com/303)](https://xkcd.com/303/) by [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe) is licensed under [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)
+
+
+### Our expectations of you {#rtfm}
+We need you to read ALL of the messages we send you via GitLab, Jenkins, Microsoft Teams, the Piazza forum, emails and in this guidebook. Before you ask for help, make sure you have Read The Friendly Manual(s). [RTFM](https://en.wikipedia.org/wiki/RTFM).
+
+#### Getting help {#helpme}
+
+Regardless of if you are attending live (in person) or remotely (online, login to Teams) the mechanism for getting help is the same:
+
+For live sessions (timetabled), team study and workshops you need to use the issue tracker:
+
+* (ref:livehelpqueue)
+
+
+*Outside* of live sessions use the piazza discussion board:
+
+* (ref:piazzaforum)
+
+Please note:
+
+* During Team study sessions: we can discuss and help with coursework
+* During Workshops: we will support workshop content only, **NO COURSEWORK** questions
+
+You can use whatever combination of OS and IDE you like but we can **only provide support** for students using Eclipse (ref:ideversion) and the [CSImage Virtual Machine](https://wiki.cs.manchester.ac.uk/index.php/CSImage_VM) (or a Linux machine in the Kilburn building). We do not have the resources to test and support the myriad combinations of OS and IDE. Sorry!
+
+#### Workshops vs. Team study {#workshops}
+There are two main sessions:
+
+1. Team study sessions
+1. Workshops
+
+Team study sessions are for you to get together as a team to work alongside each other. You can also get help from GTAs and staff on coursework. **Every team member** should be attending **every team study session**, you may also need to arrange to meet outside of the scheduled sessions so that you can collaborate together.
+
+Each workshop has a specific theme that we need you to focus on. This means **we won't discuss coursework with you during the workshops**, otherwise we risk not getting through workshop material.
+
+#### Physical vs online sessions {#online}
+For the live (physical) sessions you'll need to be in the appropriate lab in the Kilburn building. For online sessions (e.g. some marking and mentoring) it is especially important that you turn up on time by being at a computer with access to:
+
+* A working pair of headphones
+* A working microphone that you can mute if you're somewhere noisy
+* A webcam (ideally) but see section \@ref(cameras)
+
+Please note, this may mean the best place to work is *not* necessarily the Kilburn building. Go and find a quiet spot, use your laptop (if you have one) or use your phone (there are [good mobile clients for Teams](https://www.microsoft.com/en-gb/microsoft-teams/download-app)) or work from home. It will really help if *at least* one of your team is at a desktop computer.
+
+We have deliberately scheduled online activities so they aren't immediately after physical activities (like a lecture) so that you have time to get setup BEFORE the meeting starts.
+
+### What your team expects of you {#urteam}
+
+For this course to run smoothly your team will expect that you:
+
+* Turn up to all the bi-weekly team study sessions, **especially the marking sessions**
+* Participate in the all workshops
+* Contribute to your team by:
+    + Respecting your team members, no bullying. Assume good faith by default. It's your responsibility to make your team work. Team work makes the dream work.
+    + Getting along with your team members. You may not like all of them (that's life) but your team members are crucial to your teams success. While you can get away with being a “lone wolf” coder on other course units, (see figure \@ref(fig:wolf-fig)), you are now expected to behave like a sociable engineer as part of a professional team
+    + Encouraging people who might be slacking off to make contributions, see figure \@ref(fig:xkcd-compiling-fig)
+    + Communicating with your team if you have difficulty contributing
+    + Reporting issues where necessary, either to a GTA or academic member of staff
+
+```{r wolf-fig, echo = FALSE, fig.align = "center", out.width = "99%", fig.cap = "(ref:captionlonewolf)"}
+knitr::include_graphics("images/lonewolf.jpeg")
+```
+
+(ref:captionlonewolf) Normally a social pack animal, wolves sometimes act alone. While being a [lone wolf](https://en.wikipedia.org/wiki/Lone_wolf_(trait)) on other course units may be a reasonable strategy for studying, it won't work well for this one. Don't be a lone wolf because sociable teams usually make better software than loners. CC-BY-SA Image of Winter wolf by ForestWander.com on Wikimedia Commons [w.wiki/45Vj](https://w.wiki/45Vj)
+
+What do you get in return for our expectations and those of your team?
+
+### What to expect of GTAs {#gtas}
+This course is supported by a team of Graduate Teaching Assistants (GTAs), they are here to help you. They have lots of other people to help too, so please treat them with respect. If you're waiting for support from a GTA, make sure you've Read The Friendly Manual, see section \@ref(rtfm).
+
+Our GTAs have Read Their Friendly Manual to (the GTA wiki) so they will know how to help you, or can quickly find out how to. They won't give you the answer, but will be able to help you find your own way.
+
+::: {.rmdcaution}
+
+(ref:cautionbox)
+The GTAs have scheduled marking sessions that we expect them to stick to. The second year timetable is incredibly crowded, and the team study sessions are the **ONLY TIMES IN THE WEEK** when we can guarantee that everyone in your team is available.
+
+:::
+
+### What to expect from mentors {#gomentors}
+You have been assigned a mentor who will meet with you online for two one hour meetings, see chapter \@ref(mentoring). These meetings are a bit like code review meetings, they have access to your private code repository and can see what your team is up to.
+
+Our mentors are all professional software engineers, who can give you advice on how to manage the process of making better software. so please treat them with the respect they deserve. They have volunteered to help by sharing their engineering wisdom with you and taken time out of their busy schedules to do so.
+
+### What you can expect from academic staff {#academics}
+The academic staff on this course include Suzanne Embury, Anas Elhag, Duncan Hull, Thomas Carroll and Sandra Sampaio. We're here to help but please remember, there are 400+ students on this course so we can't reply to every single personal email immediately.
+
+::: {.rmdcaution}
+
+(ref:cautionbox)
+
+Please **don't email staff or GTAs** directly unless you have good reason too (e.g. personal issues).
+
+Instead, please post issues on the forum at (ref:piazzaforum) where *everyone* can see the response or in the help queue (ref:livehelpqueue) within the workshop / team study sessions.
+:::
+
+Like you, we're often very busy and have other teaching (and research) commitments besides this course. We're here to ensure that the course runs smoothly and we aim to give feedback on coursework to you within the two week window.
+
+### How your work gets assessed {#assessment}
+The course is:
+
+* 30% Written exam (in January)
+* 70% Practical skills assessment (coursework)
+
+The coursework is broken down as follows
+
+1. 10%: Individual coursework 1, see chapter \@ref(gitting)
+1. 10%: Individual coursework 2, see chapter \@ref(conflicting)
+1. 40%: Team coursework 1, see chapter \@ref(dealing)
+1. 40%: Team coursework 2, see chapter \@ref(working)
+
+##  Your camera {#cameras}
+We would normally expect participants in small meetings (not large ones like lectures) to turn their cameras on but we understand that there are good reasons why people may not be willing/able to and won’t explicitly ask you to.
+
+### Camera on? {#on}
+There has always been a question around whether to turn cameras on during online meetings but it is even more obvious with online meetings becoming the norm rather than the exception.  There is a direct benefit in using cameras in small, personal meetings where many of us make use of visual cues to aid the flow of conversation – at the very least it’s easier to identify who is talking. Additionally, it can help people get along – people might feel more ‘listened to’ if they can see somebody listening and your team will find it easier to remember names etc if they have a face to match the names to.
+
+### Camera off? #{#off}
+There are lots of legitimate reasons why you might turn your camera off. Most obviously, if you don’t have access to a camera. But you may also be in an environment which you prefer others not to see, you may have anxiety around the issue, or your connection might be too slow. There are many other perfectly reasonable reasons for you not to put your camera on and you should not feel pressured to do this. If you simply say “Sorry, I can’t turn my camera on today” then nobody will ask any further and they should never explicitly ask you to turn it on.
+
+### Being appropriate {#being}
+You should already be treating online meetings like physical ones e.g. turning up on time, being prepared, listening, engaging etc. Similarly, if people can see you then you should ensure you are wearing appropriate clothes (wearing clothes is the absolute minimum here!) and in an appropriate place (the bathroom is probably not appropriate) as you would for a physical meeting.
+
+### Respecting others {#respecting}
+If other people have decided to turn their cameras on then we ask that you show them respect by not recording anything without their explicit permission. We won’t touch on the legality of this as we believe that basic respect for each other should be enough to prevent any issues. You will take part in larger meetings where recording may be standard and in such cases this should be made explicit.
+
+(Thanks to Giles Reger and Sarah Clinch for the text above)
+
+
+`Document version:` `r format(Sys.time(), '%d %B, %Y')`
